@@ -1,0 +1,9 @@
+CREATE TABLE bookmarks (
+  id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  title varchar(255) NOT NULL,
+  url text,
+  tags varchar(255),
+  type varchar(50),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
