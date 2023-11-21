@@ -46,14 +46,21 @@ This video from `Be A Better Dev`'s channel is a great guide to setting up a bas
 Link: [Youtube: AWS RDS MySQL Database Setup | Step by Step Tutorial](https://www.youtube.com/watch?v=Ng_zi11N4_c)
 
 **Create a lambda function**
+
 You can just follow this guide from `Be A Better Dev` as well. You'll learn how to create a lambda function, query your mysql database, and upload your dependencies and code to aws lambda.
+
 Link: [Youtube: How to Query RDS MySQL From AWS Lambda in Python | Step by Step Tutorial](https://youtu.be/vyLvmPkQZkI?si=-n2WHEl2ASFovRSd&t=498)
 
-I have already included a `layer.zip` file in this repository that you could use as a layer for dependencies. Just scroll to the bottom of the code tab and you will see a `Layers` section. Click `Add a layer`
+I have already included a `layer.zip` file in this repository that you could use as a layer for dependencies. 
+
+Just scroll to the bottom of the code tab in AWS Lambda and you will see a `Layers` section. Click `Add a layer`
+![Layer section image](https://github.com/FaRm3rKing/the-librarian/blob/main/public/img/layers-section.png)
 
 Then click `create a new layer`.
+![Create a new layer image](https://github.com/FaRm3rKing/the-librarian/blob/main/public/img/create-layer.png)
 
 You will then have to configure this new layer. You can name it however you want. Upload the `layers.zip` file here and copy the configurations seen in the screenshot.
+![Create layer configuration](https://github.com/FaRm3rKing/the-librarian/blob/main/public/img/create-layer-config.png)
 
 **Add bot to group**
 
