@@ -62,6 +62,8 @@ Then click `create a new layer`.
 You will then have to configure this new layer. You can name it however you want. Upload the `layers.zip` file here and copy the configurations seen in the screenshot.
 ![Create layer configuration](https://github.com/FaRm3rKing/the-librarian/blob/main/public/img/create-layer-config.png)
 
+Add this newly created layer to your lambda function and you can now code with all your dependencies set up.
+
 **Add bot to group**
 
 Create a group and add the bot as an administrator. 
