@@ -25,6 +25,7 @@ git clone https://github.com/FaRm3rKing/the-librarian.git
 ```
 
 **Setup .env**
+
 You don't really need to set up a `.env` file since you will be setting the environment variables in AWS Lambda website later. But this is a good place to save your credentials for reference later. A `.env.example` is already created in the repository that you could use, just rename it to `.env`.
 
 The environment variables we need are:
@@ -39,6 +40,7 @@ DATABASE=
 ```
 
 **Create a mysql database in AWS RDS**
+
 This video from `Be A Better Dev`'s channel is a great guide to setting up a basic mysql database in AWS RDS. Save your database credentials to the `.env` file for reference.
 
 Link: [Youtube: AWS RDS MySQL Database Setup | Step by Step Tutorial](https://www.youtube.com/watch?v=Ng_zi11N4_c)
@@ -64,6 +66,7 @@ To do this in mobile, go to your group chat `settings` > `pencil icon` > `admini
 You can learn more about this behavior [here](https://core.telegram.org/bots/faq#what-messages-will-my-bot-get).
 
 **Chat away**
+
 You are now free to send links in your group and the telegram bot will save it to your database. Use the urls saved in your database however you want or add or delete features from the lambda function. Happy Hacking!
 
 # TODO
