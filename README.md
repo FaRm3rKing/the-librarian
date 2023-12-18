@@ -79,4 +79,7 @@ You can learn more about this behavior [here](https://core.telegram.org/bots/faq
 You are now free to send links in your group and the telegram bot will save it to your database. Use the urls saved in your database however you want or add or delete features from the lambda function. Happy Hacking!
 
 # TODO
-- [ ] for now, the librarian can only handle URLs. Maybe add command for when you want to pass a note. 
+- [ ] for now, the librarian can only handle URLs. Maybe add command for when you want to pass a note.
+- [ ] images as note
+- [ ] text as note
+- [ ] 
