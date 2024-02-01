@@ -1,4 +1,6 @@
 .env
 venv/
 python/
+.gitignore
+something.json
 

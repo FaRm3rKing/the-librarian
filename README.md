@@ -64,6 +64,11 @@ You will then have to configure this new layer. You can name it however you want
 
 Add this newly created layer to your lambda function and you can now code with all your dependencies set up.
 
+**Setting up the webhook and API Gateway**
+# TODO
+for API gateway use REST instead of HTTP. In my experience, HTTP would just repeatedly send the first message to the gateway.
+
+
 **Add bot to group**
 
 Create a group and add the bot as an administrator. 
