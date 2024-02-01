@@ -20,13 +20,12 @@ def lambda_handler(event, context):
         return {'statusCode': 400}
     
     table = 'bookmarks'
-    message_type = 'url'
     cnxn = connect()
     try: 
         with cnxn:
             with cnxn.cursor() as cursor:
                 query = """INSERT INTO bookmarks (title, url, type) VALUES (%s, %s, %s)"""
-                cursor.execute(query, (title, message, message_type))
+                cursor.execute(query, (title, message))
             cnxn.commit()
     except:
         sendMessage(chat_id, 'Failed bookmarking the url.')
