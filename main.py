@@ -24,7 +24,7 @@ def lambda_handler(event, context):
     try: 
         with cnxn:
             with cnxn.cursor() as cursor:
-                query = """INSERT INTO bookmarks (title, url, type) VALUES (%s, %s, %s)"""
+                query = """INSERT INTO bookmarks (title, url) VALUES (%s, %s)"""
                 cursor.execute(query, (title, message))
             cnxn.commit()
     except:
